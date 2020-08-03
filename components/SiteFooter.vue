@@ -3,8 +3,8 @@
     {{ $siteConfig.siteName }} &copy; {{ new Date().getFullYear() }} - All
     Rights Reserved
     <br />
-    Made with <span style="color: #e25555;">&#9829;</span> with Buefy, Nuxt.js,
-    Netlify, and Vue
+    Made with <span style="color: #e25555;">&#9829;</span> with Vue, Nuxt.js,
+    and Netlify
   </footer>
 </template>
 

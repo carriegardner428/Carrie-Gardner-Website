@@ -24,17 +24,17 @@ export default {
       link: '/'
     },
     {
-      name: 'About',
+      name: 'About Carrie',
       link: '/about'
-    },
+    }
     // {
     //   name: 'Contact',
     //   link: '/contact'
     // },
-    {
-      name: 'Categories',
-      link: '/categories'
-    }
+    // {
+    //   name: 'Blog',
+    //   link: '/categories'
+    // }
   ],
   hero: {
     theme: 'mist' // options: mist, light, dark

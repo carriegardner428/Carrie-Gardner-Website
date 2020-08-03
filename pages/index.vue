@@ -2,13 +2,41 @@
   <div id="home-page" class="page-wrapper home-page">
     <!-- <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
     </site-hero> -->
-    <main-section theme="one-column">
-      <template v-slot:default>
-        <!-- All Posts -->
-        <posts-grid />
-      </template>
+    <main-section theme="sidebar-left">
       <template v-slot:sidebar>
-        Nothing here
+        <figure>
+          <img
+            :src="require('~/assets/uploads/carrie/carrie-2019.png').src"
+            :srcset="require('~/assets/uploads/carrie/carrie-2019.png').srcSet"
+          />
+        </figure>
+      </template>
+      <template v-slot:default>
+        <section class="hero is-medium">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title">
+                Carrie Gardner
+              </h1>
+              <div class="content">
+                <p>
+                  <!-- eslint-disable-next-line -->
+                  <font-awesome-icon icon="terminal" /> &emsp; Researcher &amp; Developer &#64; <span><a class="has-text-info" href="https://www.sei.cmu.edu" target="_blank">Carnegie Mellon University Software Engineering Institute</a></span>
+                </p>
+                <!-- eslint-disable-next-line -->
+                <p><font-awesome-icon icon="user-graduate" /> &emsp; MBA Student &#64; <span class="font-family:Arial"><a class="has-text-info" href="https://www.cmu.edu/tepper/" target="_blank">Tepper School of Business</a></span></p>
+                <p><font-awesome-icon icon="biking" /> &emsp; Fitness Lover</p>
+                <p>
+                  <font-awesome-icon icon="seedling" /> &emsp;
+                  <!-- eslint-disable-next-line -->
+                  <span>Gard<span class="has-text-success is-uppercase has-text-weight-bold" style="transform: rotate(45deg);-webkit-transform: rotate(45deg);">e</span>ner</span>
+                </p>
+                <!-- eslint-disable-next-line -->
+                <p><font-awesome-icon icon="paw" /> &emsp; Dog Mom to <a class="has-text-info" href="/pups">Cedar &amp; Willow</a></p>
+              </div>
+            </div>
+          </div>
+        </section>
       </template>
     </main-section>
   </div>
