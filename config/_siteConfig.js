@@ -1,6 +1,6 @@
 /**
  * CMS Configuration
- * Alter 'netlify' in the import statment below to one of the following:
+ * Alter 'netlify' in the import statement below to one of the following:
  * netlify
  */
 import theCMS from '../cms/netlify/cms'
@@ -27,10 +27,10 @@ export default {
       name: 'About',
       link: '/about'
     },
-    {
-      name: 'Contact',
-      link: '/contact'
-    },
+    // {
+    //   name: 'Contact',
+    //   link: '/contact'
+    // },
     {
       name: 'Categories',
       link: '/categories'

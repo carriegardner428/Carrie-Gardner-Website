@@ -1,7 +1,7 @@
 <template>
   <div id="home-page" class="page-wrapper home-page">
-    <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
-    </site-hero>
+    <!-- <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
+    </site-hero> -->
     <main-section theme="one-column">
       <template v-slot:default>
         <!-- All Posts -->
