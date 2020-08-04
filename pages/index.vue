@@ -32,7 +32,7 @@
                   <span>Gard<span class="has-text-success is-uppercase has-text-weight-bold" style="transform: rotate(45deg);-webkit-transform: rotate(45deg);">e</span>ner</span>
                 </p>
                 <!-- eslint-disable-next-line -->
-                <p><font-awesome-icon icon="paw" /> &emsp; Dog Mom to <a class="has-text-info" href="/pups">Cedar &amp; Willow</a></p>
+                <p><font-awesome-icon icon="paw" /> &emsp; Dog Mom to <a class="has-text-info" href="https://www.instagram.com/cedarandwilllow/">Cedar &amp; Willow</a></p>
               </div>
             </div>
           </div>
