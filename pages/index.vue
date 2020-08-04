@@ -5,10 +5,11 @@
     <main-section theme="sidebar-left">
       <template v-slot:sidebar>
         <figure>
-          <img
+          <opti-image
             :src="require('~/assets/uploads/carrie/carrie-2019.png').src"
             :srcset="require('~/assets/uploads/carrie/carrie-2019.png').srcSet"
           />
+          <loading-spinner position="absolute" />
         </figure>
       </template>
       <template v-slot:default>
